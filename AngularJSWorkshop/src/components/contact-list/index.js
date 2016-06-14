@@ -11,4 +11,11 @@ const dependencies = [
 export default angular
     .module('ContactList', dependencies)
     .config(contactListState)
-    .controller('ContactListController', ContactListController);
+    .controller('ContactListController', ContactListController)
+    .filter('capatalize', function () {
+        return function (input) {
+            return input.charAt(0) ? input.charAt(0).toUpperCase()
+                + (input.charAt(1) ? input.substr(1).toLowerCase() : '') : '';
+        }
+    });
+

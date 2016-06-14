@@ -3,7 +3,8 @@
 </h1>
 
 <section>
-    <input type="text" ng-model="searchTerm">
+    <label for="search">Search</label>
+    <input type="text" ng-model="searchTerm" name="search">
 
     <form name="form" novalidate>
         <p>
@@ -27,16 +28,15 @@
     </form>
 
     <p>{{searchTerm}}</p>
-    <p>{{searchTerm | uppercase }}</p>
 
     <div ng-if="searchTerm == 'spin'">
         <div ng-class="searchTerm" style="color:red">I'm red because you entered 'spin'</div>
     </div>
 
     <table>
-    <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
+    <tr><th>Name (Capatalized)</th><th>Email</th><th>Phone</th></tr>
     <tr ng-repeat="Contact in contactList.ContactList | filter:searchTerm">
-        <td>{{Contact.Name}}</td>
+        <td><a ui-sref="app.contactDetail({name:Contact.Name, email:Contact.Email, phone:Contact.Phone})">{{Contact.Name | capatalize}}</a></td>
         <td>{{Contact.Email}}</td>
         <td>{{Contact.Phone}}</td>
     </tr>

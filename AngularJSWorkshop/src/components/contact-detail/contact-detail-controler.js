@@ -2,7 +2,7 @@
     constructor($stateParams) {
 
         this.ContactDetail = [
-            { Name: $stateParams.name }
+            { Name: $stateParams.name, Email: $stateParams.email, Phone: $stateParams.phone}
         ];
     }
 }
