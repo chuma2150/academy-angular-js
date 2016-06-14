@@ -22,6 +22,7 @@
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="package.json" />
+    <Content Include="src\components\contact-list\contact-form.html" />
     <Content Include="tsd.json" />
     <Compile Include="gulpfile.js" />
     <Compile Include="protractor.conf.js" />
