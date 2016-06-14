@@ -5,13 +5,13 @@ import config from './config';
 import errorHandling from './error-handling';
 import applicationState from './application-state';
 import httpProvider from './http-provider';
-import contactComponent from 'components/contact-list/index'
+import contactListComponent from 'components/contact-list/index'
 import contactDetailComponent from 'components/contact-detail/index'
 
 const dependencies = [
     'ngCookies',
     welcomeComponent.name,
-    contactComponent.name,
+    contactListComponent.name,
     contactDetailComponent.name
 ];
 

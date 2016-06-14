@@ -3,13 +3,12 @@
 </h1>
 
 <section>
-
     <table>
     <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
-    <tr ng-repeat="Contact in contactDetail.ContactDetail">
-        <td>{{Contact.Name}}</td>
-        <td>{{Contact.Email}}</td>
-        <td>{{Contact.Phone}}</td>
+    <tr>
+        <td>{{contactDetailCtrl.contactDetail.name}}</td>
+        <td>{{contactDetailCtrl.contactDetail.email}}</td>
+        <td>{{contactDetailCtrl.contactDetail.phone}}</td>
     </tr>
     </table>
 </section>

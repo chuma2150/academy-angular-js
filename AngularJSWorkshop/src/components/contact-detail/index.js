@@ -1,7 +1,7 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import contactDetailState from './contact-detail-state';
-import ContactDetailController from './contact-detail-controler'
+import ContactDetailController from './contact-detail-controller'
 
 
 const dependencies = [

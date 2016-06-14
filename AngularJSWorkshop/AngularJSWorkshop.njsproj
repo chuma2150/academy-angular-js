@@ -25,6 +25,7 @@
     <Content Include="tsd.json" />
     <Compile Include="gulpfile.js" />
     <Compile Include="protractor.conf.js" />
+    <Compile Include="src\components\contact-list\contact-list-filter.js" />
     <Compile Include="webpack.config.js" />
     <Compile Include="src\index.js" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />
@@ -196,11 +197,11 @@
     <Compile Include="src\components\application\http-provider.js" />
     <Compile Include="src\components\application\index.js" />
     <Content Include="src\components\contact-detail\contact-detail.html" />
-    <Compile Include="src\components\contact-detail\contact-detail-controler.js" />
+    <Compile Include="src\components\contact-detail\contact-detail-controller.js" />
     <Compile Include="src\components\contact-detail\contact-detail-state.js" />
     <Compile Include="src\components\contact-detail\index.js" />
     <Content Include="src\components\contact-list\contact-list.html" />
-    <Compile Include="src\components\contact-list\contact-list-controler.js" />
+    <Compile Include="src\components\contact-list\contact-list-controller.js" />
     <Compile Include="src\components\contact-list\contact-list-state.js" />
     <Compile Include="src\components\contact-list\index.js" />
     <Content Include="src\components\welcome\welcome.html" />

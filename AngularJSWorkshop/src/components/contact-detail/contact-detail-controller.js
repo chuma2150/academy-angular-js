@@ -1,9 +1,7 @@
 ﻿class ContactDetailController {
     constructor($stateParams) {
 
-        this.ContactDetail = [
-            { Name: $stateParams.name, Email: $stateParams.email, Phone: $stateParams.phone}
-        ];
+        this.contactDetail = { name: $stateParams.name, email: $stateParams.email, phone: $stateParams.phone};
     }
 }
 
