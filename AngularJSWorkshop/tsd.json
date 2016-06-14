@@ -1,0 +1,78 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "babel-core/babel-core.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "babylon/babylon.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "babel-template/babel-template.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "gulp-autoprefixer/gulp-autoprefixer.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "connect-livereload/connect-livereload.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "gulp-protractor/gulp-protractor.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "connect/connect.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "babel-traverse/babel-traverse.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "orchestrator/orchestrator.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "gulp-sass/gulp-sass.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "gulp/gulp.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "gulp-sourcemaps/gulp-sourcemaps.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "q/Q.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "uglify-js/uglify-js.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "source-map/source-map.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "webpack/webpack.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    },
+    "babel-types/babel-types.d.ts": {
+      "commit": "aa8af2a5df88b7a825dd6cdb74c913afcea7d17c"
+    }
+  }
+}
