@@ -7,6 +7,7 @@
     <input type="text" ng-model="searchTerm" name="searchTerm">
 
     <contact-form></contact-form>
+    <p ng-if="contactListCtrl.errors">{{contactListCtrl.errors}}</p>
 
     <p>{{searchTerm}}</p>
 
@@ -17,7 +18,7 @@
     <table>
         <tr><th>Name (Capatalized)</th><th>Email</th><th>Phone</th></tr>
         <tr ng-repeat="contact in contactListCtrl.contactList | filter:searchTerm">
-            <td><a ui-sref="app.contactDetail({name:contact.name, email:contact.email, phone:contact.phone})">{{contact.name | capatalize}}</a></td>
+            <td><a ui-sref="app.contactDetail({name:contact.name})">{{contact.name | capatalize}}</a></td>
             <td>{{contact.email}}</td>
             <td>{{contact.phone}}</td>
         </tr>

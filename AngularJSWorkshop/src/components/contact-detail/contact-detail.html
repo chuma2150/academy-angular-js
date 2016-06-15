@@ -5,10 +5,10 @@
 <section>
     <table>
     <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
-    <tr>
-        <td>{{contactDetailCtrl.contactDetail.name}}</td>
-        <td>{{contactDetailCtrl.contactDetail.email}}</td>
-        <td>{{contactDetailCtrl.contactDetail.phone}}</td>
+    <tr ng-repeat="contact in contactDetailCtrl.contactList">
+        <td>{{contact.name}}</td>
+        <td>{{contact.email}}</td>
+        <td>{{contact.phone}}</td>
     </tr>
     </table>
 </section>
