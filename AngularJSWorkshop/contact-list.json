@@ -1,0 +1,16 @@
+﻿{
+  "result": "SUCCESS",
+  "resultMessage": "Contact-list loaded.",
+  "contactList": [
+    {
+      "name": "LoadedFromJson",
+      "email": "json@getMethod.de",
+      "phone": "0762133214"
+    },
+    {
+      "name": "AlsoLoaded",
+      "email": "loaded@get.de",
+      "phone": "0762133214"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import uiRouter from 'angular-ui-router';
 import contactListState from './contact-list-state';
 import ContactListController from './contact-list-controller';
 import ContactListFilter from './contact-list-filter';
-import ContactTemplate from './contact-form.html';
+import ContactFormDirective from './contact-list-directive';
 
 
 const dependencies = [
@@ -15,9 +15,5 @@ export default angular
     .config(contactListState)
     .controller('ContactListController', ContactListController)
     .filter('capatalize', ContactListFilter)
-    .directive("contactForm", function () {
-        return {
-            restrict: 'E',
-            template: ContactTemplate
-        };
-    });
+    .directive("contactForm", ContactFormDirective);
+

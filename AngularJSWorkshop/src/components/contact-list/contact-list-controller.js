@@ -1,9 +1,16 @@
-﻿class ContactListController {
+﻿//import ContactList from './contact-list.json';
 
-    constructor() {
+class ContactListController {
 
-        this.contact = { };
-        this.contactList = [{ name: "TestName", email: "TestEmail@testmail.de", phone: "0761234567"}];
+    constructor($http) {
+
+        this.contact = {};
+        this.contactList = [];
+
+        var contactListController = this;
+        $http.get('/contact-list.json').success(function (data) {
+            contactListController.contactList = data.contactList;
+        });
     }
 
     add() {
@@ -13,4 +20,4 @@
 }
 
 // wenn depend. dann davor (array)
-export default [ContactListController];
+export default ['$http', ContactListController];
