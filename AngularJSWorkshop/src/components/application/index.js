@@ -5,14 +5,16 @@ import config from './config';
 import errorHandling from './error-handling';
 import applicationState from './application-state';
 import httpProvider from './http-provider';
-import contactListComponent from 'components/contact-list/index'
-import contactDetailComponent from 'components/contact-detail/index'
+import contactListComponent from 'components/contact-list/index';
+import contactDetailComponent from 'components/contact-detail/index';
+import userLoginComponent from 'components/user-login/index';
 
 const dependencies = [
     'ngCookies',
     welcomeComponent.name,
     contactListComponent.name,
-    contactDetailComponent.name
+    contactDetailComponent.name,
+    userLoginComponent.name
 ];
 
 export default angular

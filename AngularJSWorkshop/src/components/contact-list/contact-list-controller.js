@@ -1,26 +1,15 @@
-﻿var contactJson = '/contact-list.json';
+﻿class ContactListController {
 
-class ContactListController {
+    constructor(ContactsService, contactList) {
 
-    constructor($http) {
-
-        this.http = $http;
-        this.contact = {};
-        this.contactList = [];
-
-        var contactListController = this;
-        $http.get(contactJson)
-            .success(function (data) {
-                contactListController.contactList = data.contactList;
-        });
+        this.contactList = contactList;
+        this.contactsService = ContactsService;
     }
 
     add() {
-        this.errors = null;
-        var contactListcontroller = this;
-        this.http.post(contactJson, this.contact)
-            .catch(function (contact) {
-                contactListcontroller.errors = contact.data.error; // funktioniert leider nicht?
+        this.contactsService.addContact(this.contact)
+            .then((responseMessage) => {
+                this.responseMessage = responseMessage;
             });
 
         this.contactList.push(this.contact);
@@ -29,4 +18,4 @@ class ContactListController {
 }
 
 // wenn depend. dann davor (array)
-export default ['$http', ContactListController];
+export default ['ContactsService','contactList', ContactListController];

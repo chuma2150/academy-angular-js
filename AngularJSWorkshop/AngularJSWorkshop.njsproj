@@ -6,7 +6,7 @@
     <ProjectGuid>{c7a9971c-4c5a-458f-8185-51d050294cea}</ProjectGuid>
     <ProjectHome />
     <ProjectView>ShowAllFiles</ProjectView>
-    <StartupFile />
+    <StartupFile>src\components\contact-list\index.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -19,7 +19,6 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include="contact-list.json" />
     <Content Include="index.html" />
     <Content Include="favicon.ico" />
     <Content Include="package.json" />
@@ -36,6 +35,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\chalk\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\chalk\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\chalk\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\chalk\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\chalk\index.d.ts" />
@@ -46,6 +49,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\form-data\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\form-data\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\form-data\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\form-data\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\form-data\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\glob\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\glob\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\glob\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\glob\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\glob\index.d.ts" />
@@ -56,6 +63,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\minimatch\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\minimatch\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\minimatch\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\minimatch\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\minimatch\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\node\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\node\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\node\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\node\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\node\index.d.ts" />
@@ -66,6 +77,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\optimist\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\optimist\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\optimist\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\optimist\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\optimist\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\q\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\q\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\q\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\q\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\q\index.d.ts" />
@@ -76,6 +91,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\request\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\request\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\request\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\request\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\browser\ambient\request\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main.d.ts" />
@@ -86,6 +105,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\chalk\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\chalk\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\chalk\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\chalk\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\chalk\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\form-data\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\form-data\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\form-data\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\form-data\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\form-data\index.d.ts" />
@@ -96,6 +119,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\glob\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\glob\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\glob\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\glob\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\glob\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\minimatch\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\minimatch\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\minimatch\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\minimatch\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\minimatch\index.d.ts" />
@@ -106,6 +133,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\node\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\node\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\node\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\node\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\node\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\optimist\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\optimist\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\optimist\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\optimist\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\optimist\index.d.ts" />
@@ -116,6 +147,10 @@
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\q\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\q\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\q\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\q\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\q\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\request\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\request\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\request\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\request\index.d.ts" />
     <TypeScriptCompile Include="node_modules\protractor\typings\main\ambient\request\index.d.ts" />
@@ -126,6 +161,10 @@
     <TypeScriptCompile Include="typings\angular-ui-router\angular-ui-router.d.ts" />
     <TypeScriptCompile Include="typings\angular-ui-router\angular-ui-router.d.ts" />
     <TypeScriptCompile Include="typings\angular-ui-router\angular-ui-router.d.ts" />
+    <TypeScriptCompile Include="typings\angular-ui-router\angular-ui-router.d.ts" />
+    <TypeScriptCompile Include="typings\angular-ui-router\angular-ui-router.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-cookies.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular-cookies.d.ts" />
@@ -136,6 +175,10 @@
     <TypeScriptCompile Include="typings\angularjs\angular-resource.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular-resource.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular-resource.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-resource.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-resource.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
@@ -146,6 +189,10 @@
     <TypeScriptCompile Include="typings\babel-core\babel-core.d.ts" />
     <TypeScriptCompile Include="typings\babel-core\babel-core.d.ts" />
     <TypeScriptCompile Include="typings\babel-core\babel-core.d.ts" />
+    <TypeScriptCompile Include="typings\babel-core\babel-core.d.ts" />
+    <TypeScriptCompile Include="typings\babel-core\babel-core.d.ts" />
+    <TypeScriptCompile Include="typings\babel-template\babel-template.d.ts" />
+    <TypeScriptCompile Include="typings\babel-template\babel-template.d.ts" />
     <TypeScriptCompile Include="typings\babel-template\babel-template.d.ts" />
     <TypeScriptCompile Include="typings\babel-template\babel-template.d.ts" />
     <TypeScriptCompile Include="typings\babel-template\babel-template.d.ts" />
@@ -156,6 +203,10 @@
     <TypeScriptCompile Include="typings\babel-traverse\babel-traverse.d.ts" />
     <TypeScriptCompile Include="typings\babel-traverse\babel-traverse.d.ts" />
     <TypeScriptCompile Include="typings\babel-traverse\babel-traverse.d.ts" />
+    <TypeScriptCompile Include="typings\babel-traverse\babel-traverse.d.ts" />
+    <TypeScriptCompile Include="typings\babel-traverse\babel-traverse.d.ts" />
+    <TypeScriptCompile Include="typings\babel-types\babel-types.d.ts" />
+    <TypeScriptCompile Include="typings\babel-types\babel-types.d.ts" />
     <TypeScriptCompile Include="typings\babel-types\babel-types.d.ts" />
     <TypeScriptCompile Include="typings\babel-types\babel-types.d.ts" />
     <TypeScriptCompile Include="typings\babel-types\babel-types.d.ts" />
@@ -166,6 +217,10 @@
     <TypeScriptCompile Include="typings\babylon\babylon.d.ts" />
     <TypeScriptCompile Include="typings\babylon\babylon.d.ts" />
     <TypeScriptCompile Include="typings\babylon\babylon.d.ts" />
+    <TypeScriptCompile Include="typings\babylon\babylon.d.ts" />
+    <TypeScriptCompile Include="typings\babylon\babylon.d.ts" />
+    <TypeScriptCompile Include="typings\connect-livereload\connect-livereload.d.ts" />
+    <TypeScriptCompile Include="typings\connect-livereload\connect-livereload.d.ts" />
     <TypeScriptCompile Include="typings\connect-livereload\connect-livereload.d.ts" />
     <TypeScriptCompile Include="typings\connect-livereload\connect-livereload.d.ts" />
     <TypeScriptCompile Include="typings\connect-livereload\connect-livereload.d.ts" />
@@ -176,6 +231,10 @@
     <TypeScriptCompile Include="typings\connect\connect.d.ts" />
     <TypeScriptCompile Include="typings\connect\connect.d.ts" />
     <TypeScriptCompile Include="typings\connect\connect.d.ts" />
+    <TypeScriptCompile Include="typings\connect\connect.d.ts" />
+    <TypeScriptCompile Include="typings\connect\connect.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-autoprefixer\gulp-autoprefixer.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-autoprefixer\gulp-autoprefixer.d.ts" />
     <TypeScriptCompile Include="typings\gulp-autoprefixer\gulp-autoprefixer.d.ts" />
     <TypeScriptCompile Include="typings\gulp-autoprefixer\gulp-autoprefixer.d.ts" />
     <TypeScriptCompile Include="typings\gulp-autoprefixer\gulp-autoprefixer.d.ts" />
@@ -186,6 +245,10 @@
     <TypeScriptCompile Include="typings\gulp-protractor\gulp-protractor.d.ts" />
     <TypeScriptCompile Include="typings\gulp-protractor\gulp-protractor.d.ts" />
     <TypeScriptCompile Include="typings\gulp-protractor\gulp-protractor.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-protractor\gulp-protractor.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-protractor\gulp-protractor.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-sass\gulp-sass.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-sass\gulp-sass.d.ts" />
     <TypeScriptCompile Include="typings\gulp-sass\gulp-sass.d.ts" />
     <TypeScriptCompile Include="typings\gulp-sass\gulp-sass.d.ts" />
     <TypeScriptCompile Include="typings\gulp-sass\gulp-sass.d.ts" />
@@ -196,6 +259,10 @@
     <TypeScriptCompile Include="typings\gulp-sourcemaps\gulp-sourcemaps.d.ts" />
     <TypeScriptCompile Include="typings\gulp-sourcemaps\gulp-sourcemaps.d.ts" />
     <TypeScriptCompile Include="typings\gulp-sourcemaps\gulp-sourcemaps.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-sourcemaps\gulp-sourcemaps.d.ts" />
+    <TypeScriptCompile Include="typings\gulp-sourcemaps\gulp-sourcemaps.d.ts" />
+    <TypeScriptCompile Include="typings\gulp\gulp.d.ts" />
+    <TypeScriptCompile Include="typings\gulp\gulp.d.ts" />
     <TypeScriptCompile Include="typings\gulp\gulp.d.ts" />
     <TypeScriptCompile Include="typings\gulp\gulp.d.ts" />
     <TypeScriptCompile Include="typings\gulp\gulp.d.ts" />
@@ -206,6 +273,10 @@
     <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="typings\node\node.d.ts" />
+    <TypeScriptCompile Include="typings\node\node.d.ts" />
     <TypeScriptCompile Include="typings\node\node.d.ts" />
     <TypeScriptCompile Include="typings\node\node.d.ts" />
     <TypeScriptCompile Include="typings\node\node.d.ts" />
@@ -216,11 +287,17 @@
     <TypeScriptCompile Include="typings\orchestrator\orchestrator.d.ts" />
     <TypeScriptCompile Include="typings\orchestrator\orchestrator.d.ts" />
     <TypeScriptCompile Include="typings\orchestrator\orchestrator.d.ts" />
+    <TypeScriptCompile Include="typings\orchestrator\orchestrator.d.ts" />
+    <TypeScriptCompile Include="typings\orchestrator\orchestrator.d.ts" />
     <TypeScriptCompile Include="typings\q\Q.d.ts" />
     <TypeScriptCompile Include="typings\q\Q.d.ts" />
     <TypeScriptCompile Include="typings\q\Q.d.ts" />
     <TypeScriptCompile Include="typings\q\Q.d.ts" />
     <TypeScriptCompile Include="typings\q\Q.d.ts" />
+    <TypeScriptCompile Include="typings\q\Q.d.ts" />
+    <TypeScriptCompile Include="typings\q\Q.d.ts" />
+    <TypeScriptCompile Include="typings\source-map\source-map.d.ts" />
+    <TypeScriptCompile Include="typings\source-map\source-map.d.ts" />
     <TypeScriptCompile Include="typings\source-map\source-map.d.ts" />
     <TypeScriptCompile Include="typings\source-map\source-map.d.ts" />
     <TypeScriptCompile Include="typings\source-map\source-map.d.ts" />
@@ -245,7 +322,7 @@
     <Content Include="src\components\contact-list\contact-list.html" />
     <Compile Include="src\components\contact-list\contact-list-controller.js" />
     <Compile Include="src\components\contact-list\contact-list-state.js" />
-    <Compile Include="src\components\contact-list\index.js" />
+    <Compile Include="src\components\user-login\index.js" />
     <Content Include="src\components\welcome\welcome.html" />
     <Compile Include="src\components\welcome\index.js" />
     <Compile Include="src\components\welcome\welcome-state.js" />
@@ -275,12 +352,18 @@
     <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
     <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
     <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
     <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
     <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
     <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
+    <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
+    <TypeScriptCompile Include="typings\uglify-js\uglify-js.d.ts" />
+    <TypeScriptCompile Include="typings\webpack\webpack.d.ts" />
+    <TypeScriptCompile Include="typings\webpack\webpack.d.ts" />
     <TypeScriptCompile Include="typings\webpack\webpack.d.ts" />
     <TypeScriptCompile Include="typings\webpack\webpack.d.ts" />
     <TypeScriptCompile Include="typings\webpack\webpack.d.ts" />
@@ -320,6 +403,7 @@
     <Folder Include="src\components\application" />
     <Folder Include="src\components\contact-detail" />
     <Folder Include="src\components\contact-list" />
+    <Folder Include="src\components\user-login\" />
     <Folder Include="src\components\welcome" />
     <Folder Include="src\images" />
     <Folder Include="src\stylesheets" />

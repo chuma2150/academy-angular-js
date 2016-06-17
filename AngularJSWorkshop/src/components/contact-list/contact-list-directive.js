@@ -3,6 +3,7 @@
 export default function () {
     return {
         restrict: 'E',
-        template: ContactFormTemplate
+        template: ContactFormTemplate,
+        scope: "="
     }
 }
