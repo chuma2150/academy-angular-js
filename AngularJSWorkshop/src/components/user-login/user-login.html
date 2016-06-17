@@ -1,10 +1,8 @@
 ﻿<h1>
     Welcome, please Login.
 </h1>
-
 <section>
     <form name="form" novalidate ng-submit="form.$valid && userLoginCtrl.logIn()">
-
         <table>
             <tr>
                 <td><label for="fieldEmail">Email</label></td>
@@ -20,7 +18,6 @@
                 <td><span ng-show="form.$submitted && form.fieldPassword.$error.required">Enter your password.</span></td>
             </tr>
         </table>
-
         <p>
             <button type="submit">Login</button>
             <span ng-show="userLoginCtrl.responseMessage">Message: {{userLoginCtrl.responseMessage}}</span>

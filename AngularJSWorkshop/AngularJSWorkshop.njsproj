@@ -6,7 +6,8 @@
     <ProjectGuid>{c7a9971c-4c5a-458f-8185-51d050294cea}</ProjectGuid>
     <ProjectHome />
     <ProjectView>ShowAllFiles</ProjectView>
-    <StartupFile>src\components\contact-list\index.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
@@ -23,11 +24,17 @@
     <Content Include="favicon.ico" />
     <Content Include="package.json" />
     <Content Include="src\components\contact-list\contact-form.html" />
+    <Content Include="src\components\user-login\user-login.html" />
     <Content Include="tsd.json" />
     <Compile Include="gulpfile.js" />
     <Compile Include="protractor.conf.js" />
     <Compile Include="src\components\contact-list\contact-list-directive.js" />
     <Compile Include="src\components\contact-list\contact-list-filter.js" />
+    <Compile Include="src\components\contact-list\contact-list-service.js" />
+    <Compile Include="src\components\contact-list\index.js" />
+    <Compile Include="src\components\user-login\user-login-controller.js" />
+    <Compile Include="src\components\user-login\user-login-service.js" />
+    <Compile Include="src\components\user-login\user-login-state.js" />
     <Compile Include="webpack.config.js" />
     <Compile Include="src\index.js" />
     <TypeScriptCompile Include="node_modules\protractor\typings\browser.d.ts" />

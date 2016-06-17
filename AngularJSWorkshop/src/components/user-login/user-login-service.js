@@ -10,10 +10,10 @@ class UserService {
 
     logIn(user) {
         return this.http.post(this.userServiceApiBaseUrl + '/login', user)
-        .then((response) => {
-            document.cookie = response.data;
-            return response.data;
-        }, (response) => { return 'Username and/or password wrong. Please try again.' });
+            .then((response) => {
+                document.cookie = response.data;
+                return response.data;
+            }, (response) => { return 'Username and/or password wrong. Please try again.' });
     }
 }
 

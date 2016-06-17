@@ -1,4 +1,4 @@
-import angular from 'angular';
+﻿import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import contactListState from './contact-list-state';
 import ContactListController from './contact-list-controller';

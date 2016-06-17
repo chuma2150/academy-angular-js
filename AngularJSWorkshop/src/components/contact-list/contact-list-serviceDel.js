@@ -42,7 +42,7 @@ class ContactsService {
         return this.http.delete(this.contactsServiceBaseUrl + '/' + contact.id)
             .then((response) => {
                 return 'Contact deleted successfully.'
-            }, (response) => { return 'Please first log in.' });
+            }, (response) => {return 'Please first log in.' });
     }
 }
 
