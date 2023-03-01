@@ -21,10 +21,10 @@
     "connect-livereload": "^0.5.4",
     "gulp": "^3.9.1",
     "gulp-connect": "^4.0.0",
-    "gulp-protractor": "^2.4.0",
+    "gulp-protractor": "^4.1.1",
     "gulp-server-livereload": "^1.8.1",
     "raw-loader": "^0.5.1",
-    "webpack": "^1.13.1",
+    "webpack": "^5.75.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
   },
